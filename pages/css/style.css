@@ -1,9 +1,33 @@
 body {
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(255, 255, 255);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Ctext x='10' y='100' font-size='16' fill='rgba(0,0,0,0.1)' transform='rotate(-30 10,100)'%3EHello world%3C/text%3E%3C/svg%3E");
     background-repeat: repeat;
     animation: flow 10s linear infinite;
+    padding: 20px;
+h1 {
+    color: rgb(38, 237, 65);
+    border-bottom: 2px solid #ffd700;
 }
+a {
+    color: rgb(9, 25, 249);
+    text-decoration: none;
+}
+a:hover {
+    color: #f3b123;
+    text-decoration: underline;
+}
+.article {
+    color: black;
+    border-top: 2px solid #ffd700;
+    font-size: medium;
+}
+.News {
+    color: rgb(10, 255, 47);
+    border-bottom: 2px solid #ffd700;
+    font-size: xx-large;
+}
+}
+
 @keyframes flow {
     from { background-position: 0 0;}
     to { background-position: 200px 200px;}
