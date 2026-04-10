@@ -10,6 +10,16 @@ h1 {
     color: rgb(38, 237, 65);
     border-bottom: 2px solid #ffd700;
 }
+.Last-Update {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-family: monospace;
+    font-size: small;
+    color: black;
+    display: inline-block;
+    animation: last-update 1s infinite;
+}
 a {
     color: rgb(9, 25, 249);
     text-decoration: none;
@@ -69,7 +79,11 @@ a:hover {
     padding-left: 10px;
 }
 }
-
+@keyframes last-update {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
 @keyframes flow {
     from { background-position: 0 0;}
     to { background-position: 200px 200px;}
