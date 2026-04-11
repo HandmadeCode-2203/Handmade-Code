@@ -7,6 +7,21 @@ body {
     font-family: "Yu Mincho", serif;
     line-height: 1.6;
 }
+body.about-bg {
+    background-color: rgb(246, 240, 218) !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Ctext x='10' y='100' font-size='26' fill='rgba(0,0,0,0.1)' transform='rotate(-30 10,100)'%3EAbout%3C/text%3E%3C/svg%3E") !important;
+    background-repeat: repeat;
+    animation: flow 10s linear infinite !important;
+    padding: 20px !important;
+    font-family: "Yu Mincho", serif !important;
+    line-height: 1.6 !important;
+}
+.about {
+    font-size: 30px;
+}
+.github-url {
+    font-size: 20px;
+}
 body.Help-bg {
     background-color: rgb(217, 143, 142) !important;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Ctext x='10' y='100' font-size='26' fill='rgba(0,0,0,0.1)' transform='rotate(-30 10,100)'%3EHelp%3C/text%3E%3C/svg%3E") !important;
